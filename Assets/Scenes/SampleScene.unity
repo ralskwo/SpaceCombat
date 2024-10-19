@@ -122,6 +122,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &31249227 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6115003235415801276, guid: 0fb078089596f4444bb9721e3ccae6cd, type: 3}
+  m_PrefabInstance: {fileID: 1431683641818932086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &261428052
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,6 +529,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1342743588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 68338197745074130, guid: 0fb078089596f4444bb9721e3ccae6cd, type: 3}
+  m_PrefabInstance: {fileID: 1431683641818932086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1431683641818932086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -532,6 +542,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 622722781651442301, guid: 0fb078089596f4444bb9721e3ccae6cd, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 622722781651442301, guid: 0fb078089596f4444bb9721e3ccae6cd, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 31249227}
+    - target: {fileID: 622722781651442301, guid: 0fb078089596f4444bb9721e3ccae6cd, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 1342743588}
     - target: {fileID: 2308707653628884403, guid: 0fb078089596f4444bb9721e3ccae6cd, type: 3}
       propertyPath: m_Name
       value: PlayerRig

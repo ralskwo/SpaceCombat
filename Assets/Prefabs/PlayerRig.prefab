@@ -64,7 +64,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3816333427396045979}
-  - component: {fileID: 5435644476710205380}
+  - component: {fileID: 622722781651442301}
   m_Layer: 0
   m_Name: StarSparrow1
   m_TagString: Untagged
@@ -85,8 +85,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7224694186030685285}
-  - {fileID: 3489541099071839755}
   - {fileID: 5452991262113982991}
   - {fileID: 9219874716309576299}
   - {fileID: 908975493194462698}
@@ -115,9 +113,11 @@ Transform:
   - {fileID: 1712420534180341803}
   - {fileID: 581029915323169822}
   - {fileID: 7638485714862204240}
+  - {fileID: 7224694186030685285}
+  - {fileID: 3489541099071839755}
   m_Father: {fileID: 7033613405392958518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5435644476710205380
+--- !u!114 &622722781651442301
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4982,15 +4982,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075213413744642067, guid: fe03b354d0a8c704c95b83130016c4b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.23
+      value: 3.2299957
       objectReference: {fileID: 0}
     - target: {fileID: 6075213413744642067, guid: fe03b354d0a8c704c95b83130016c4b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.22
+      value: -0.22000003
       objectReference: {fileID: 0}
     - target: {fileID: 6075213413744642067, guid: fe03b354d0a8c704c95b83130016c4b9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.21
+      value: 2.209999
       objectReference: {fileID: 0}
     - target: {fileID: 6075213413744642067, guid: fe03b354d0a8c704c95b83130016c4b9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5108,15 +5108,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075213413744642067, guid: fe03b354d0a8c704c95b83130016c4b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.11
+      value: -3.1100006
       objectReference: {fileID: 0}
     - target: {fileID: 6075213413744642067, guid: fe03b354d0a8c704c95b83130016c4b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.22
+      value: -0.22000003
       objectReference: {fileID: 0}
     - target: {fileID: 6075213413744642067, guid: fe03b354d0a8c704c95b83130016c4b9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.21
+      value: 2.209999
       objectReference: {fileID: 0}
     - target: {fileID: 6075213413744642067, guid: fe03b354d0a8c704c95b83130016c4b9, type: 3}
       propertyPath: m_LocalRotation.w
